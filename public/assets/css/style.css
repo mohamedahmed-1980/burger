@@ -1,0 +1,35 @@
+li {
+  padding: 5px;
+  margin: 5px;
+  background: #faebd7;
+  display: block;
+}
+
+.create-update-form {
+  padding: 5px;
+  margin: 5px;
+  background: aqua;
+}
+
+.form-group {
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+}
+.create-form {
+  text-align: center;
+}
+.change-devour {
+  margin-left: 60%;
+}
+.container {
+  background-color: rgb(243, 241, 237);
+}
+img {
+  width: 200px;
+  height: 200px;
+}
