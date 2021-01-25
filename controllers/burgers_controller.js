@@ -3,7 +3,7 @@ const burger = require("../models/burger.js")
 var router = express.Router();
 
 
-// Create all our routes and set up logic within those routes where required.
+// Create all our routes
 router.get("/", function(req, res) {
   burger.selectBurgers(function(data) {
     var hbsObject = {
@@ -16,7 +16,7 @@ router.get("/", function(req, res) {
 
 router.post("/api/burgers", function(req, res) {
   burger.addBurger(req.body.name, function(result) {
-    // Send back the ID of the new quote
+    // Send back the ID of the new burger
     res.json({ id: result.id });
   });
 });
