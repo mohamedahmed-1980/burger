@@ -18,7 +18,7 @@ In this assignment, I create a burger logger with MySQL, Node, Express, Handleba
 - ORM
 - JavaScript
 
-![web image](public\assets\img\web.png)
+![web image](https://drive.google.com/file/d/1LFeuv9BbWtmzzHENnfIeHegqedhw0L6H/view?usp=sharing)
 
 ## Links
 
